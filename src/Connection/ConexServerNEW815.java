@@ -20,7 +20,7 @@ private java.sql.Connection conn = null;
  private final String password = "";
  public static final String DRIVER = "net.sourceforge.jtds.jdbc.Driver";
  private final String selectMethod = "Direct";
- private final String instance = "Reportes";
+ private final String instance = "";
 
 
  public ConexServerNEW815() {}
