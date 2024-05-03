@@ -15,21 +15,21 @@ public class ConexServerNEW815_100 {
 private java.sql.Connection connection = null;
 private java.sql.Connection conn = null;
  private final String url = "jdbc:jtds:sqlserver://";
- private final String serverName = "P580628WS815";
- private final String portNumber = "1433";
- private final String databaseName = "100";
- private final String userName = "sa";
- private final String password = "NoDo.,51";
+ private final String serverName = "";
+ private final String portNumber = "";
+ private final String databaseName = "";
+ private final String userName = "";
+ private final String password = "";
  public static final String DRIVER = "net.sourceforge.jtds.jdbc.Driver";
  private final String selectMethod = "Direct";
- private final String instance = "Reportes";
+ private final String instance = "";
 
 
  public ConexServerNEW815_100() {}
 
  private String getConnectionUrl() {
                   System.out.println(this.getClass().toString()+">>"+"getConnectionUrl");  
- return "jdbc:jtds:sqlserver://P580628ws815:1433/100"+";"+"instance=Reportes";
+ return "jdbc:jtds:sqlserver://:/"+";"+"instance=";
  }
 
  private java.sql.Connection getConnection() {
